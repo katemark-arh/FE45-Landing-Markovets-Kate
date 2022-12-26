@@ -1,0 +1,38 @@
+.title{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;   
+}
+
+hr{
+    max-width: 64px;
+    height: 2px;
+    border-color: #e72424;
+    margin: auto;
+    margin-bottom: 34px;
+    margin-top: 34px; 
+}
+
+.main-text{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #868788;
+}
+
+.portfolio-card-title{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.portfolio-card-description{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
