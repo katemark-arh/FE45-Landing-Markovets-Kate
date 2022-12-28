@@ -3,16 +3,18 @@
     font-weight: 400;
     font-size: 36px;
     text-align: center;
-    color: #212121;   
+    color: #212121; 
+    margin-bottom: 34px;
 }
 
-hr{
+
+.line{
     max-width: 64px;
     height: 2px;
-    border-color: #e72424;
+    background-color: #e72424;
     margin: auto;
     margin-bottom: 34px;
-    margin-top: 34px; 
+    margin-top: 34px;
 }
 
 .main-text{
