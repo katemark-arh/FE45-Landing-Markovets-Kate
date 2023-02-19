@@ -1,0 +1,76 @@
+.revievs-height {
+    margin-bottom: 68px;
+}
+.revievs-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* row-gap: 50px; */
+    margin: 0 -15px;  
+}
+.revievs-card {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    margin: 0 15px;
+}
+.revievs-card--comment {
+    background: #e2e2e2;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    padding: 7px 22px;
+    position: relative;
+    flex: 1 1 auto;
+}
+.revievs-card--comment::before{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 40px;
+    top: 100%;
+    border: 14px solid transparent;
+    border-top: 17px solid #e2e2e2;
+}
+.revievs-card--comment p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #86878b;
+}
+.revievs-card--profil {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.revievs-card--icons {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    overflow: hidden;
+}
+.revievs-card--icons img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.revievs-card--aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.revievs-card--aside__name {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 12px;
+}
+.revievs-card--aside__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878b;
+}

@@ -1,0 +1,53 @@
+.pricing{
+    background-color: #F5F5F5;
+    /* margin-top: 62px;
+    margin-bottom: 59px; */
+    padding: 62px 112px 59px;
+
+}
+.pricing-cards-wrap{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pricing-cards{
+    width: 350px;
+    
+}
+
+.pricing-card-title{
+    line-height: 50px;
+    width: 350px;
+    background-color:#333333;
+    margin-bottom: 2px;
+    /* border-bottom: 2px solid #ffffff; */
+
+}
+
+.pricing-card-price{
+    line-height: 100px;
+    width: 350px;
+    background-color:#333333;
+    margin-bottom: 2px;
+    /* border-bottom: 2px solid #ffffff; */
+}
+
+.pricing-card-description{
+    line-height: 50px;
+    width: 350px;
+    background-color:#333333;
+    
+}
+
+.pricing-cards-list{
+    line-height: 40px;
+    /* width: 350px; */
+    background-color:#ffffff;
+    
+}
+
+.pricing-cards-list li{
+    border-top: 4px solid #F5F5F5;
+    
+}

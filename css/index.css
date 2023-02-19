@@ -1,6 +1,17 @@
 @import url("./cdn.css");
 @import url("./main.css");
+@import url("./nav.css");
+@import url("./modern.css");
+@import url("./social.css");
+@import url("./tabs.css");
 @import url("./portfolio.css");
+@import url("./pricing.css");
+@import url("./revievs.css");
+@import url("./desing.css");
+@import url("./contact.css");
+@import url("./footer.css");
+@import url("./media.css");
+
 
 
 
@@ -12,13 +23,69 @@
     text-decoration: none;
   }
   
-html{
+html, body {
     font-family: 'Open Sans','Raleway', sans-serif;
 }
+
+
 
 .container {
     max-width: 1170px;
     padding: 0px 15px;
-    margin: auto;  
+    margin: auto;
+    position: relative;
+    z-index: 3;
 }
 
+section {
+    padding: 100px 0px;
+    background: #fff;
+}
+
+.none {
+    display: none;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    display: block;
+    outline: none;
+    border: none;
+    resize: none;
+}
+button {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    margin: 34px auto 0px;
+    background: #e72424;
+    display: block;
+}
+
+.description {
+    text-align: center;
+}
+.description p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #86878b;
+}
